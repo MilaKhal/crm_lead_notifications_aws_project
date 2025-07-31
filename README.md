@@ -32,7 +32,7 @@ The system consists of three AWS Lambda functions, each responsible for a differ
 - **Slack Webhook** – For final lead notifications
 
 ## Folder Structure
-
+<pre>
 crm_lead_notifications_aws_project/
 ├── crmWebhookHandler
 │ ├── lambda_function.py
@@ -48,7 +48,7 @@ crm_lead_notifications_aws_project/
 │ ├── lambda_function.py
 │ ├── requirements.txt
 │ └── buildspec.yml
-
+ </pre>
 ## Setup & Deployment
 
 Each Lambda function is set up independently and may be deployed using AWS CodePipeline, CodeBuild, or via manual packaging. `requirements.txt` files include any necessary external Python dependencies (e.g., `urllib3`).
