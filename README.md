@@ -36,18 +36,15 @@ The system consists of three AWS Lambda functions, each responsible for a differ
 crm_lead_notifications_aws_project/
 ├── crmWebhookHandler
 │ ├── lambda_function.py
-│ ├── requirements.txt
-│ └── buildspec.yml
+│ └── requirements.txt 
 │
 ├── crmLeadEnrichmentHandler
 │ ├── lambda_function.py
-│ ├── requirements.txt
-│ └── buildspec.yml
+│ └── requirements.txt 
 │
 ├── crmLeadNotification
 │ ├── lambda_function.py
-│ ├── requirements.txt
-│ └── buildspec.yml
+│ └── requirements.txt 
  </pre>
 ## Setup & Deployment
 
