@@ -21,7 +21,7 @@ The system consists of three AWS Lambda functions, each responsible for a differ
 ### 3. `crmLeadNotification`
 - **Trigger**: Creation of an object in the **target folder** (S3 event).
 - **Responsibility**: Reads the enriched lead JSON and generates a **Slack notification message** with relevant lead details for the Salesforce team:
-- <img width="730" height="533" alt="image" src="https://github.com/user-attachments/assets/38fd039e-91e3-4a8d-ab41-4e23fe490236" />
+ <img width="730" height="533" alt="image" src="https://github.com/user-attachments/assets/38fd039e-91e3-4a8d-ab41-4e23fe490236" />
 
 
 ## AWS Services Used
