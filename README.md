@@ -25,7 +25,7 @@ The system consists of three AWS Lambda functions, each responsible for a differ
 
 
 ## AWS Services Used
--**Amazon API Gateway** – Receives POST requests from the CRM webhook and triggers the crmWebhookHandler Lambda function
+- **Amazon API Gateway** – Receives POST requests from the CRM webhook and triggers the crmWebhookHandler Lambda function
 - **AWS Lambda** – Event-driven compute for all processing stages
 - **Amazon S3** – Source and target buckets for event and enriched files
 - **Amazon SQS** – Delayed messaging for lead processing
